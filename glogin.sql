@@ -1,4 +1,9 @@
---/u01/app/oracle/product/11.2.0/db_1/sqlplus/admin/glogin.sql
+/*
+ANDRÉ DEL CAMPO SPADINI                                       
+EMAIL: andrespadini@yahoo.com.br                              
+TEL: 16-99186-4264                                            
+*/ 
+
 SET PAGESIZE 999
 SET LINESIZE 132
 SET SERVEROUTPUT ON SIZE UNLIMITED FORMAT WRAPPED
