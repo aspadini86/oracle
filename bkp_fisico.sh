@@ -1,9 +1,7 @@
 #!/bin/bash                                                                                                             #
-#                                                               #
-# CCM TECNOLOGIA                                                #
 # ANDRÉ DEL CAMPO SPADINI                                       #
-# EMAIL: aspadini@ccmtecnologia.com.br                          #
-# TEL: 16-3515-8300                                             #
+# EMAIL: andrespadini@yahoo.com.br                              #
+# TEL: 16-99186-4264                                            #
 #                                                               #
 # FUNÇÃO                                                        #
 # Efetua backup fisico full do banco de dados utilizando        #
