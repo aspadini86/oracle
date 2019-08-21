@@ -1,0 +1,83 @@
+<h5>  BACKUP FISICO - RMAN 	</h5>
+<br>
+<table class="tabela_status">
+<tr><th>BACKUPS DISPONIVEIS</th></tr> 
+<tr><td> /u02/fra/NBS/backupset/ARC_NBS_1735433468_245_20170124.bkp </td></tr>
+<tr><td> /u02/fra/NBS/backupset/ARC_NBS_1735433468_246_20170124.bkp </td></tr>
+<tr><td> /u02/fra/NBS/backupset/BKP_NBS_1735433468_244_20161011_2.bkp </td></tr>
+<tr><td> /u02/fra/NBS/backupset/BKP_NBS_1735433468_244_20170124_1.bkp </td></tr>
+<tr><td> /u02/fra/NBS/backupset/BKP_NBS_1735433468_246_20160822_2.bkp </td></tr>
+<tr><td> /u02/fra/NBS/backupset/BKP_NBS_1735433468_246_20160826_1.bkp </td></tr>
+<tr><td> /u02/fra/NBS/backupset/bkprman_2016-08-26.log </td></tr>
+<tr><td> /u02/fra/NBS/backupset/bkprman_2017-01-17.log </td></tr>
+<tr><td> /u02/fra/NBS/backupset/bkprman_2017-01-18.log </td></tr>
+<tr><td> /u02/fra/NBS/backupset/bkprman_2017-01-21.log </td></tr>
+<tr><td> /u02/fra/NBS/backupset/bkprman_2017-01-22.log </td></tr>
+<tr><td> /u02/fra/NBS/backupset/bkprman_2017-01-24.log </td></tr>
+<tr><td> /u02/fra/NBS/backupset/bkprman_2017-01-25.log </td></tr>
+<tr><td> /u02/fra/NBS/backupset/CONTROLFILE_c-1735433468-20160822-00.bkp </td></tr>
+<tr><td> /u02/fra/NBS/backupset/CONTROLFILE_c-1735433468-20170121-00.bkp </td></tr>
+<tr><td> /u02/fra/NBS/backupset/CONTROLFILE_c-1735433468-20170122-00.bkp </td></tr>
+<tr><td> /u02/fra/NBS/backupset/CONTROLFILE_c-1735433468-20170124-00.bkp </td></tr>
+<tr><td> /u02/fra/NBS/backupset/CONTROLFILE_c-1735433468-20170124-01.bkp </td></tr>
+<tr><td> /u02/fra/NBS/backupset/SPFILE_NBS_1735433468_247_20170124.bkp </td></tr>
+</table>
+ <br>
+<h5> BACKUP LOGICO - EXP </h5>
+<table class="tabela_status">
+<tr><th>BACKUPS DISPONIVEIS</th> 
+<th>TAMANHO</th> 
+<th>STATUS</th> 
+</tr>
+<tr>
+<td> /u02/bkp_logico/BKP_nbs_2017-01-25.tgz
+</td> 
+<td> 4.0K
+</td>
+<td> ERROR </td>
+</tr>
+<tr>
+<td> /u02/bkp_logico/BKP_nbs_2017-01-24.log </td>
+<td> ARQUIVO NAO EXISTE</td>
+<td> ERROR </td>
+</tr>
+</table>
+ <br>
+ <h5> PARTICOES </h5>
+<table class=tabela_status> <tr> <th scope=col> Filesystem   </th> 	<th scope=col> Size   </th> 	<th scope=col> Used   </th> 	<th scope=col> Avail   </th> 	<th scope=col> Use%   </th> 	<th scope=col> Mounted   </th> </tr>  
+<tr> <td> /dev/mapper/VGSYS-LVROOT   </td>	<td> 11G   </td>	<td> 7.7G   </td>	<td> 2.3G   </td>	<td> 78%   </td>	<td> /   </td></tr>  
+<tr> <td> /dev/mapper/VGSYS-LVVAR   </td>	<td> 5.2G   </td>	<td> 748M   </td>	<td> 4.2G   </td>	<td> 16%   </td>	<td> /var   </td></tr>  
+<tr> <td> /dev/mapper/VGSAS-LVU01   </td>	<td> 64G   </td>	<td> 41G   </td>	<td> 20G   </td>	<td> 68%   </td>	<td> /u01   </td></tr>  
+<tr> <td> /dev/mapper/VGBKP-LVU02   </td>	<td> 43G   </td>	<td> 11G   </td>	<td> 30G   </td>	<td> 28%   </td>	<td> /u02   </td></tr>  
+</table>
+<br>
+ <h5> TABLESPACE </h5>
+ <br>
+<h5> FAQs </h5>
+<table class="tabela_faq">
+	<tr>
+		<th> TOPICO </th>
+		<th> DESCRICAO </th>
+	</tr>
+	<tr>
+		<td> STATUS BACKUP FISICO - RMAN </td>
+		<td> Contem os arquivos fisicos do banco de dados como datafiles, archive logs ou controlfiles.</td>
+	</tr>
+	<tr>
+		<td> STATUS BACKUP LOGICO - EXP </td>
+		<td> Contem dados e\ou definicoes de objetos. Um exemplo comum de backup logico e o famoso <br>
+		     export\import atraves do datapump pois ele gera nada mais do que um arquivo binario   <br>
+		     com as definicoes de estrutura ,dados para importacao.</td>
+	</tr>
+	<tr>
+		<td> PARTICOES </td>
+		<td> Eh o tamanho das particoes no sistema operacional igual ao C: do sistema operacional <br>
+			Windows </td>
+	</tr>
+	<tr>
+		<td> TABLESPACE </td>
+		<td> O Banco de dados Oracle eh composto por uma ou mais unidades logicas de armazenamento <br>
+			Estas unidades sao chamadas de TABLESPACES  </td>
+	<tr>
+
+</table>
