@@ -1,0 +1,28 @@
+<h5> FAQs </h5>
+<table class="tabela_faq">
+	<tr>
+		<th> TOPICO </th>
+		<th> DESCRICAO </th>
+	</tr>
+	<tr>
+		<td> STATUS BACKUP FISICO - RMAN </td>
+		<td> Contem os arquivos fisicos do banco de dados como datafiles, archive logs ou controlfiles.</td>
+	</tr>
+	<tr>
+		<td> STATUS BACKUP LOGICO - EXP </td>
+		<td> Contem dados e\ou definicoes de objetos. Um exemplo comum de backup logico e o famoso <br>
+		     export\import atraves do datapump pois ele gera nada mais do que um arquivo binario   <br>
+		     com as definicoes de estrutura ,dados para importacao.</td>
+	</tr>
+	<tr>
+		<td> PARTICOES </td>
+		<td> Eh o tamanho das particoes no sistema operacional igual ao C: do sistema operacional <br>
+			Windows </td>
+	</tr>
+	<tr>
+		<td> TABLESPACE </td>
+		<td> O Banco de dados Oracle eh composto por uma ou mais unidades logicas de armazenamento <br>
+			Estas unidades sao chamadas de TABLESPACES  </td>
+	<tr>
+
+</table>
