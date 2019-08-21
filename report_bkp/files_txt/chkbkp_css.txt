@@ -1,0 +1,76 @@
+<html><body>
+
+<style>
+body {
+font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+
+h5 {
+    color: white;
+    background: #297FB8;
+    padding: 10px;
+    font-size: 12px;
+}
+.tabela_status {
+	border-spacing: 0;
+}
+
+.tabela_status tr:first-child {
+        font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    background-color: #297FB8;
+    color: white;
+}
+
+.tabela_status th {
+        padding: 2px 15px;
+}
+
+.tabela_status td {
+    font-size: 12px;
+    text-align: center;
+    background-color: #F9F9F9;
+    padding: 2px 25px;
+    border-left: 1px solid #297FB8;
+    border-bottom: 1px solid #297FB8;
+}
+
+.tabela_status td:last-child {
+    border-right: 1px solid #297FB8;
+}
+
+
+
+
+.tabela_faq {
+        border-spacing: 0;
+}
+
+.tabela_faq tr:first-child {
+        font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    background-color: #297FB8;
+    color: white;
+}
+
+.tabela_faq th {
+        padding: 2px 15px;
+}
+
+.tabela_faq td {
+    font-size: 12px;
+    text-align: left;
+    background-color: #F9F9F9;
+    padding: 2px 25px;
+    border-left: 1px solid #297FB8;
+    border-bottom: 1px solid #297FB8;
+}
+
+.tabela_faq td:last-child {
+    border-right: 1px solid #297FB8;
+}
+
+
+</style>
